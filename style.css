@@ -1,0 +1,100 @@
+body {
+	background-color:#white;
+	color: #a06cd5;
+	font-family: 'Frank Ruhl Libre', serif;;
+	font-size:17px;
+	text-align: center;
+}
+
+h1{color:#ffd8be;
+	font-family: Helvetica;
+	font-weight: 400;
+	font-weight:bold;
+	letter-spacing: 7px;
+	font-size: 50px;
+}
+	
+
+
+h2{
+	color:#9381ff;
+	font-family: 'Big Shoulders Inline Text', cursive;
+	font-size: 24px;
+	font-weight: lighter;
+
+}
+a{
+	text-decoration:none;
+	font-family: 'Frank Ruhl Libre', serif;;
+	color: #a05344;
+}
+
+a:hover{
+	font-family:'Dancing Script', cursive;
+	color: #e79e4f;
+}
+
+/* Custom design with class (99% of your design)*/
+.container {
+	width: 700px;
+	margin:20px auto;
+}
+@media (max-width: 760px) {
+    .container {
+    width: 600px;
+    } 
+}
+
+@media (max-width: 500px) {
+    .container {
+    width: 400px;
+
+    } 
+
+}
+
+.card-white {
+	background:#ffeedd;
+	padding:30px;
+	margin: 60px;
+	border-radius: 4px;
+	box-shadow:0 15px 35px #e6d5b8;
+}
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #eddcd2;
+	color:#a05344;
+	padding: 13px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #fcf1f1;
+	color: #e79e4f;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #ffdada;
+}
+.list-inline i:hover {
+	color:#774936;
+}
+
+/*Design adjustments using id (1% design remaining)*/
+
+#Introduction p {
+	margin-bottom: 40px;
+}
+
+
